@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the future of Blockchain, Affiliate Marketing, and Stock Market.">
+    <title>FinTech Hub | Wealth & Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">FinTech.</div>
+        <ul class="nav-links">
+            <li><a href="#home" data-i18n="navHome">Home</a></li>
+            <li><a href="#features" data-i18n="navTopics">Topics</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="btn-secondary" id="langToggle">ID</button>
+            <button class="btn-primary" id="darkModeToggle" data-i18n="btnDarkMode">Dark Mode 🌙</button>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 data-i18n="heroTitle">The Future of <span>Wealth & Tech</span></h1>
+            <p data-i18n="heroDesc">Explore the modern pillars of financial growth and technological innovation. Simple,
+                fast, and efficient.</p>
+            <button class="btn-explore" data-i18n="btnExplore"
+                onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">Explore Now</button>
+        </div>
+        <div class="hero-image">
+            <div class="glow-sphere"></div>
+            <div class="glow-sphere secondary"></div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <h2 data-i18n="sectionTitle">Core Horizons</h2>
+        <div class="feature-grid">
+            <div class="card">
+                <div class="icon">⛓️</div>
+                <h3 data-i18n="card1Title">Blockchain</h3>
+                <p data-i18n="card1Desc">A decentralized, distributed, and public digital ledger that is used to record
+                    transactions across many computers so that the record cannot be altered.</p>
+            </div>
+            <div class="card">
+                <div class="icon">🤝</div>
+                <h3 data-i18n="card2Title">Affiliate Marketing</h3>
+                <p data-i18n="card2Desc">A marketing arrangement by which an online retailer pays a commission to an
+                    external website for traffic or sales generated from its referrals.</p>
+            </div>
+            <div class="card">
+                <div class="icon">📈</div>
+                <h3 data-i18n="card3Title">Stock Market</h3>
+                <p data-i18n="card3Desc">The aggregation of buyers and sellers of stocks, which represent ownership
+                    claims on businesses. A key engine for long-term wealth creation.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p data-i18n="footerText">&copy; 2026 FinTech Hub. Designed with simple HTML, CSS, and JS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
